@@ -2,7 +2,10 @@
 branch = True
 
 include =
-  tests/*
+  twiliosms/*
+
+omit =
+ */tests/*
 
 [report]
 fail_under = 95
